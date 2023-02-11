@@ -1,0 +1,127 @@
+
+body {
+  background: url(imagenes/fondopagina.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #C43737;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -60vh;
+  }
+
+.saludo {
+  margin-left: 10px;
+}
+/* Posicion divs pagina  */
+#div1{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 460px;
+  font-size: 21px;
+  height: 60px;
+  color: white;
+  position: absolute;
+  padding: 3px;
+  border-radius:10px;
+
+
+}
+#div2{
+  margin-top: 10px;
+  margin-left: 510px;
+  width: 460px;
+  font-size: 21px;
+  height: 60px;
+  color: white;
+  position: absolute;
+  padding: 3px;
+  border-radius:10px;
+  background-color: rgb(156, 156, 156) ;
+
+}
+
+#div3{
+  margin-top: 10px;
+  margin-left: 975px;
+  width: 300px;
+  font-size: 21px;
+  height: 60px;
+  color: white;
+  position: absolute;
+  padding: 3px;
+  border-radius:10px;
+  background-color: rgb(156, 156, 156) ;
+
+}
+
+#div_certificados {
+  border-style: solid;
+}
+
+#div_recibi {
+  border-style: solid;
+}
+
+#texto_certificados {
+  padding-left: 10px;
+}
+
+#texto_recibi {
+  padding-left: 10px;
+}
+
+#div_form {
+  margin-left: 30vw;
+  
+}
+
+#foto {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+#descargas {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+#textorecibi{
+  text-align: left; 
+font-family: Arial Black; 
+font-weight: bold; 
+font-size: 30px; 
+color: rgb(202, 202, 202); 
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+.historialnavegacion {
+  margin: -9px;
+
+}
+
+.flush1 {
+	background: linear-gradient(-45deg, #1f1f1f, #868686, #494949, #c5c5c5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

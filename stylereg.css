@@ -1,0 +1,83 @@
+
+  .registro {
+    width: 400px;
+    background: #3b1d1d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 35vw;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+.h4f{
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  .h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .controls {
+    width: 100%;
+    background: #ebebeb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #130496;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  .capcha1 {
+    margin-left: 22%;
+  }
+  .p1 {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .a1 {
+    color: white;
+    text-decoration: none;
+  }
+  .registrar {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  input::placeholder {
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  #flush {
+    background: linear-gradient(-45deg, #000000, #550401, #020842, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+  
